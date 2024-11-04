@@ -15,3 +15,6 @@ Default Copy Constructor는 새로운 메모리 동적 할당이 일어나지 �
 따라서 새로운 메모리 동적 할당까지 시켜주는 deep copy를 구현시켜주는 Copy Constructor를 만들어주어야 한다.
 <br>
 = 대입 연산자 역시 shallow copy다. 따라서 deep copy를 위해서는 overload를 해야한다.
+
+### Implementing INT
+각 자릿수를 node에 저장하고 덧셈, 뺄셈, 곱셈, 나눗셈을 캐리 등을 고려하여 만들어볼 수 있다.
